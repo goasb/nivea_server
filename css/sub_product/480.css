@@ -1,0 +1,104 @@
+@media screen and (min-width: 240px) and (max-width: 767px) {
+  #headBox {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #00146F; }
+    #headBox > h1 {
+      float: left;
+      width: 20%;
+      height: 80px;
+      margin-left: 2vw; }
+      #headBox > h1 > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; }
+    #headBox > .navgation {
+      float: left;
+      width: 70%;
+      height: 100%; }
+      #headBox > .navgation > ul {
+        width: 100%;
+        height: 100%; }
+        #headBox > .navgation > ul > li {
+          float: left;
+          width: 30%;
+          height: 100%;
+          margin-right: 2vw; }
+          #headBox > .navgation > ul > li:last-child {
+            margin-right: 0; }
+          #headBox > .navgation > ul > li:first-child {
+            margin-left: 3vw; }
+          #headBox > .navgation > ul > li > button {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            text-transform: uppercase;
+            line-height: 80px;
+            font-size: 0.8rem;
+            background-color: transparent; }
+          #headBox > .navgation > ul > li > .slide {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background-color: #fff;
+            border: 1px solid #00136F;
+            padding-left: 2%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+            #headBox > .navgation > ul > li > .slide > dl {
+              float: left;
+              width: 50%;
+              height: 100%; }
+              #headBox > .navgation > ul > li > .slide > dl > dt {
+                color: #00136F;
+                font-weight: 999;
+                font-size: 0.8rem;
+                padding: 30px; }
+              #headBox > .navgation > ul > li > .slide > dl > dd {
+                width: 180px;
+                margin-bottom: 15px;
+                text-indent: 30px; }
+                #headBox > .navgation > ul > li > .slide > dl > dd > a {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  color: #333;
+                  font-size: 0.8rem; }
+            #headBox > .navgation > ul > li > .slide.slide_003 {
+              height: 250px; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl {
+                width: 50%;
+                height: 65%; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type {
+                width: 100%;
+                height: auto;
+                margin-top: 20px; }
+                #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt {
+                  float: left;
+                  margin-right: 5vw;
+                  padding: 10px 20px; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt:last-child {
+                    margin-right: 0; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt > a {
+                    display: block;
+                    color: #00136F;
+                    font-weight: 999;
+                    font-size: 0.8rem;
+                    width: 100%;
+                    height: 100%; }
+          #headBox > .navgation > ul > li:nth-child(1) > .slide_001 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(2) > .slide_002 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(3) > .slide_003 {
+            display: none; } }
